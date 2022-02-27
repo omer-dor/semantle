@@ -23,6 +23,7 @@ top_up_config = {
     'redis': 'REDISTOGO_URL',   # TODO: generic
     'api_key': 'API_KEY',
     'mongo': 'MONGODB',
+    'twitter_date': 'TWITTER_DATE'
 }
 
 for var, key in top_up_config.items():

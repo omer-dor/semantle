@@ -1,5 +1,11 @@
 import json
+import os
+import sys
+
 from gensim.models import Word2Vec
+
+base = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+sys.path.extend([base])
 
 from research.base import get_config
 
