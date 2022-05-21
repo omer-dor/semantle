@@ -183,10 +183,11 @@ class CacheSecretLogicGensim(CacheSecretLogic):
         for word in self.words:
             yield word, self.model[word]
 
-
+'''
 class EasterEggLogic:
     EASTER_EGGS = config.easter_eggs
 
     @staticmethod
     def get_easter_egg(phrase):
         return EasterEggLogic.EASTER_EGGS.get(phrase)
+'''
